@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RequireJS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrap">
+
+        <div class="main">
+            <div class="visual">
+                <div class="gnb">
+                    <ul>
+                        <li><a href="javascript:;">red</a></li>
+                        <li><a href="javascript:;">blue</a></li>
+                        <li><a href="javascript:;">black</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <script data-main="js/config.js" src="js/lib/require.js"></script>
+        <script type="text/javascript">requirejs([ "main/Main" ]);</script>
+    </div>
+</body>
+</html>
